@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        //マップを表示
+        MapView(searchKey: "日本電子専門学校", mapType: .standard)
     }
 }
 
